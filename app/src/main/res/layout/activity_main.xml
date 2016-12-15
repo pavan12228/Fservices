@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="150dp"
+    android:orientation="vertical"
+    tools:context="com.example.ravi.fservices.MainActivity">
+
+
+    <TextView
+        android:id="@+id/Registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Registration"
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/Emails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="35dp"
+        android:hint=" enter email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/Passwords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="15dp"
+        android:hint=" enter password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/BtnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="signup" />
+
+
+    <TextView
+        android:id="@+id/TvSignin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Already Registered?Signin Here"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
